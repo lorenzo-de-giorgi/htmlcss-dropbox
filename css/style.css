@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 
 html{
@@ -35,6 +36,15 @@ html{
 }
 
 /* utility */
+
+img{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -43,6 +53,26 @@ html{
 .padding{
     padding: 30px;
 }
+/*  */
+
+/* flex utility */
+.d-flex{
+    display: flex;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+/*  */
+
 /* header section */
 header{
     background-color: var(--color-background-image);
@@ -50,8 +80,30 @@ header{
 nav{
     background-color: var(--color-background);
 }
+.nav-list{
+    padding: 20px; 
+}
+
+#logo{
+    width: 150px;
+    vertical-align: middle
+}
+
+.nav-a{
+    text-decoration: none;
+    color: var(--color-background-footer);
+    font-size: 15px;
+}
+
+.nav-btn{
+    background-color: var(--color-button);
+    padding: 5px 10px;
+    color: var(--color-background);
+}
+/*  */
 
 /* body section */
 #agency{
     width: 100%;
 }
+/*  */

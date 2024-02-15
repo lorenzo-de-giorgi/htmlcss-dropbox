@@ -129,6 +129,21 @@ h1{
     font-size: 15px;
     padding-top: 30px;
 }
+.padding-top-30{
+    padding-top: 40px;
+}
+#hero-btn{
+    padding: 10px 17px;
+    background-color: var(--color-button);
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.fa-arrow-down{
+    color: var(--color-background-footer);
+    font-size: 50px;
+    padding-top: 100px;
+}
 /*  */
 
 /* body section */

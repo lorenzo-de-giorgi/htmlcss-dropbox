@@ -175,7 +175,7 @@ input{
 .box{
     border: 1px solid var(--color-box);
     width: calc(1100px / 3 - 50px);
-    height: 300px;
+    height: 970px;
 }
 .box-title{
     text-align: center;
@@ -191,6 +191,10 @@ input{
 .text-indent-30{
     text-indent: 30px;
 }
+ 
+.brake-line{
+    padding-left: 18px;
+}
 .padding-top-20{
     padding-top: 20px;
 }
@@ -199,7 +203,60 @@ input{
     font-size: 15px;
     padding-top: 10px;
 }
-
+.feature{
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 15px;
+    text-wrap: nowrap;
+}
+.description-icon{
+    font-size: 15px;
+}
+.btn-position{
+    padding-top: 80px;
+    padding-left: 40px;
+}
+.btn{
+    padding: 10px 30px;
+    background-color: var(--color-button);
+    color: var(--color-background);
+    text-decoration: none;
+    font-size: 15px;
+}
+.btn-position-contacts{
+    padding-top: 80px;
+    padding-left: 40px;
+}
+.btn-contacts{
+    padding: 10px 85px;
+    background-color: var(--color-button);
+    color: var(--color-background);
+    text-decoration: none;
+    font-size: 15px;
+}
+.buy{
+    padding-top: 30px;
+}
+hr{
+    margin-top: 30px;
+    width: 20%;
+    color: var(--color-plan-text);
+}
+h5{
+    margin-top: 30px;
+    font-size: 15px;
+}
+.best{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.best i{
+    color: var(--color-button);
+}
+.break-line-best{
+    margin-left: 16px;
+}
+/*  */
 
 
 #agency{

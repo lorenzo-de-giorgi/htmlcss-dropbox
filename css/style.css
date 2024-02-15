@@ -53,6 +53,10 @@ ul{
 .padding{
     padding: 30px;
 }
+
+.padding-top{
+    padding-top: 80px;
+}
 /*  */
 
 /* flex utility */
@@ -76,6 +80,7 @@ ul{
 /* header section */
 header{
     background-color: var(--color-background-image);
+    height: 800px;
 }
 nav{
     background-color: var(--color-background);
@@ -102,7 +107,33 @@ nav{
 }
 /*  */
 
+/* hero section */
+#hero-img{
+    padding-top: 180px;
+    width: 900px;
+    position: relative;
+    left: 0px;
+    top: -150px; 
+}
+h1{
+    font-size: 75px;
+    font-weight: 800;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+#hero-text{
+    font-size: 15px;
+    padding-top: 30px;
+}
+/*  */
+
 /* body section */
+
+
 #agency{
     width: 100%;
 }

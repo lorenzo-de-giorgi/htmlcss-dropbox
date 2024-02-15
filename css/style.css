@@ -25,6 +25,8 @@ html{
 	--color-bg-herst: #b4d0e7;
 	--color-bg-clearchannel: #ffd830;
 	--color-text-buisness: #61082b;
+    --color-box: #d4d4d7;
+    --color-plan-text: #797b80;
 }
 
 .debug{
@@ -50,8 +52,9 @@ ul{
     margin: 0 auto;
 }
 
-.padding{
-    padding: 30px;
+.container-small{
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .padding-top{
@@ -132,7 +135,7 @@ h1{
     font-size: 15px;
     padding-top: 30px;
 }
-.padding-top-30{
+.padding-top-40{
     padding-top: 40px;
 }
 #hero-btn{
@@ -150,6 +153,53 @@ h1{
 /*  */
 
 /* body section */
+/* plan section */
+#plan{
+    padding-top: 250px;
+}
+#plan-title{
+    margin-top: -10px;
+    font-size: 40px;
+    word-break: initial;
+}
+.radio-form{
+    padding: 30px;
+    margin-left: -80px;
+}
+input{
+    margin-left: 50px;
+}
+.gap-50{
+    gap: 50px;
+}
+.box{
+    border: 1px solid var(--color-box);
+    width: calc(1100px / 3 - 50px);
+    height: 300px;
+}
+.box-title{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid var(--color-box);
+}
+.plan-title{
+    font-size: 25px;
+}
+.padding-top-30{
+    padding-top: 30px;
+}
+.text-indent-30{
+    text-indent: 30px;
+}
+.padding-top-20{
+    padding-top: 20px;
+}
+.plan-type{
+    color: var(--color-plan-text);
+    font-size: 15px;
+    padding-top: 10px;
+}
+
 
 
 #agency{

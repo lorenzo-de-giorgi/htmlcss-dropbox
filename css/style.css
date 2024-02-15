@@ -80,10 +80,13 @@ ul{
 /* header section */
 header{
     background-color: var(--color-background-image);
-    height: 800px;
+    height: 740px;
 }
 nav{
     background-color: var(--color-background);
+    position: fixed;
+    width: 100%;
+    z-index: 3000;
 }
 .nav-list{
     padding: 20px; 

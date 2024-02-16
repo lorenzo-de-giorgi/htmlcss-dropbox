@@ -465,9 +465,6 @@ details summary i{
 /*  */
 
 /* ft-bottom */
-.ft-bottom-t{
-    margin-left: 420px;
-}
 .ft-bottom{
     margin-top: 20px;
     color: var(--color-plan-text);

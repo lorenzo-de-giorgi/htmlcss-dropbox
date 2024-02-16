@@ -27,6 +27,7 @@ html{
 	--color-text-buisness: #61082b;
     --color-box: #d4d4d7;
     --color-plan-text: #797b80;
+    --color-button-hover: #4D90FF;
 }
 .debug{
     border: 1px solid red;
@@ -87,7 +88,6 @@ ul{
 header{
     background-color: var(--color-background-image);
     height: 740px;
-    box-shadow: 0 1px 3px;
 }
 nav{
     background-color: var(--color-background);
@@ -112,6 +112,9 @@ nav{
     background-color: var(--color-button);
     padding: 5px 15px;
     color: var(--color-background);
+}
+.nav-btn:hover{
+    background-color: var(--color-button-hover);
 }
 /*  */
 
@@ -147,10 +150,32 @@ h1{
     text-decoration: none;
     font-size: 17px;
 }
+#hero-btn:hover{
+    background-color: var(--color-button-hover);
+}
 .fa-arrow-down{
     color: var(--color-background-footer);
     font-size: 50px;
     padding-top: 100px;
+}
+/*  */
+
+/* dropdown menu */
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown:hover{
+display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 2000;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 /*  */
 
@@ -228,6 +253,9 @@ input{
     text-decoration: none;
     font-size: 15px;
 }
+.btn:hover{
+    background-color: var(--color-button-hover);
+}
 .btn-position-contacts{
     padding-top: 80px;
     padding-left: 40px;
@@ -238,6 +266,9 @@ input{
     color: var(--color-background);
     text-decoration: none;
     font-size: 15px;
+}
+.btn-contacts:hover{
+    background-color: var(--color-button-hover);
 }
 .buy{
     padding-top: 30px;
@@ -300,6 +331,10 @@ h5{
     padding: 10px 20px;
     color: var(--color-background-footer);
     text-decoration: none;
+}
+.btn-partner:hover{
+    color: var(--color-plan-text);
+    border: 1px solid var(--color-plan-text);
 }
 .btn-position-partner{
     padding-top: 50px;
@@ -411,17 +446,20 @@ h5{
 #call-to-action h2{
     color: var(--color-bg-asu);
     font-size: 30px;
-    margin-left: 350px;
+    margin-left: 250px;
     display: inline;
 }
 #call-to-action a{
-    margin-left: 200px;
+    margin-left: 75px;
     display: inline;
     color: var(--color-background-footer);
     border: 1px solid var(--color-background);
     background-color: var(--color-background);
     text-decoration: none;
     padding: 8px 20px;
+}
+#btn-free-trial:hover{
+    color: var(--color-plan-text);
 }
 /*  */
 
@@ -439,6 +477,10 @@ details > summary{
 
 details summary i{
     margin-left: 320px;
+}
+.margin-top-details{
+    margin-top: 20px;
+    max-width: 90%;
 }
 /*  */
 

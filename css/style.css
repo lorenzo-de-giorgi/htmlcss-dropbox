@@ -101,7 +101,7 @@ nav{
 }
 #logo{
     width: 150px;
-    vertical-align: middle
+    vertical-align: middle;
 }
 .nav-a{
     text-decoration: none;
@@ -163,13 +163,34 @@ h1{
 /* dropdown menu */   
 .dropdown-content{
     display: none;
-    padding: 40px;
 }
 
 .dropdown:hover .dropdown-content{
     display: block;
     position: absolute;
     background-color: var(--color-background);
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 40px;
+}
+.dp-li{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.dp-li a i{
+    margin-right: 20px;
+}
+.dp-li a::before{
+    content: '\f466';
+}
+.dp-li a:hover::before{
+    content: '\f49e';
+}
+.dp-element{
+    color: var(--color-background-footer);
+    text-decoration: none;
 }
 /*  */
 
@@ -462,15 +483,24 @@ h5{
     border: 1px solid var(--color-box);
     width: 90%;
 }
-
-details > summary{
-    list-style: none;
-    content: '\f078';
+span i{
+    margin-left: 320px;
+}
+.question:hover i{
+    transform: rotate(180deg);
+}
+.question{
     margin-top: 30px;
 }
-
-details summary i{
-    margin-left: 320px;
+.question p{
+    max-width: 90%;
+}
+.faq-details{
+    margin-top: 30px;
+    display: none;
+}
+.question:hover .faq-details{
+    display: block;
 }
 .margin-top-details{
     margin-top: 20px;

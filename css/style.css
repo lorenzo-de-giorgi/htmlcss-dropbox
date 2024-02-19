@@ -73,6 +73,10 @@ ul{
 .space-between{
     justify-content: space-between;
 }
+.around{
+    justify-content: space-around;
+    
+}
 .wrap{
     flex-wrap: wrap;
 }
@@ -173,6 +177,7 @@ h1{
     left: 0;
     right: 0;
     padding: 40px;
+    margin-top: 20px;
 }
 .dp-li{
     margin-top: 20px;
@@ -182,15 +187,21 @@ h1{
 .dp-li a i{
     margin-right: 20px;
 }
-.dp-li a::before{
-    content: '\f466';
+.secondary-icon{
+    display: none;
 }
-.dp-li a:hover::before{
-    content: '\f49e';
+.dp-element:hover .main-icon{
+    display: none;
 }
+.dp-element:hover .secondary-icon{
+    display: inline;
+    color: var(--color-button);
+}
+
 .dp-element{
     color: var(--color-background-footer);
     text-decoration: none;
+    margin-left: 30px;
 }
 /*  */
 
